@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="./src/shared/namespace.js"></script>
+    <script src="./src/shared/constants.js"></script>
+    <script src="./src/shared/id.js"></script>
+    <script src="./src/shared/date.js"></script>
+    <script src="./src/shared/dom.js"></script>
+
+    <script src="./src/domain/todo.js"></script>
+    <script src="./src/domain/todo-filter.js"></script>
+
+    <script src="./src/infrastructure/local-storage-todo-repository.js"></script>
+    <script src="./src/application/todo-service.js"></script>
+
+    <script src="./src/presentation/todo-view.js"></script>
+    <script src="./src/presentation/todo-controller.js"></script>
+    <script src="./src/bootstrap.js"></script>
+  </body>
+</html>
